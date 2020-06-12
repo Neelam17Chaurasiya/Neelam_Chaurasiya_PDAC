@@ -30,6 +30,9 @@ For further information regarding kicad you can visit to the user manual of kica
 
 **Contact Information**
 Neelam Chaurasiya,BE-Degree, VESIT Mumbai, chaurasiyaneelam001@gmail.com
+
 KUNAL GHOSH, Director, VSD Corp. Pvt. Ltd. kunalpghosh@gmail.com
+
 PHILIPP GÜHRING, Software Architect at LibreSilicon Association pg@futureware.at
+
 Dr. GAURAV TRIVEDI, Co-Principal Investigator, EICT Academy, IIT Guwahati trivedi@iitg.ac.in
