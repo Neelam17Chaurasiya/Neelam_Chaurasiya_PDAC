@@ -1,9 +1,13 @@
 Aim of project: 10bit potentiometric DAC 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference@osu180nm
 
  **Design of PDAC**
+ 
+ 
 Most of the real-world applications deal with analog and digital signal, therefore conversion from digital to analog signal and vice-versa are required to achieve a respective task in an speciﬁc application. To carryout such process of conversion digital-to-analog convertor (DAC’s) and analogto-digital converter (ADCs) are required. However, This Project  focuses on designing of potentiometric DAC(Digital to Analog Converter) where digital binary is given as a input and coressponding analog voltage is obtained.In this project Resistor String DAC (RDAC) topology is used which allows to divide the voltage using resistor-string architecture
 
  **Set Up For Simulation**
+ 
+ 
 Ki cad is open source tool (GPL) integrated package which helps to draw a schematic and obtained pcb layout.For simulation of this project firstly install ki cad for windows,macros etc. according to device.
 Simulation steps of ki cad on windows are as follows.
 
@@ -33,6 +37,8 @@ Simulation steps of ki cad on windows are as follows.
 12.Now for simulating the schematic click on" Tools"-->"Simulator"-->"setting"-->"transient analysis"-->"OK"-->" Run/simulate"--> Add signal",Select input bits and output voltage equation , observe the waveforms.
 
 **STEPS FOR GENERATION OF NETLIST**
+
+
 1.	Click on “Netlist generation” on the top toolbar.
 2.	Select spicemark on default format.Save the file with default file name.
 3.	To observe the netlist spice code go to the main window of kicad here you can see at the left corner a new file will be generated with .cir extension.
@@ -41,6 +47,8 @@ Simulation steps of ki cad on windows are as follows.
 For further information regarding kicad you can visit to the user manual of kicad ,link is given below https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all
 
 **Contact Information**
+
+
 Neelam Chaurasiya,BE-Degree, VESIT Mumbai, chaurasiyaneelam001@gmail.com
 
 KUNAL GHOSH, Director, VSD Corp. Pvt. Ltd. kunalpghosh@gmail.com
