@@ -2,6 +2,7 @@ Aim of project: 10bit potentiometric DAC 3.3v analog voltage, 1.8v digital volta
 
  **Design of PDAC**
 Most of the real-world applications deal with analog and digital signal, therefore conversion from digital to analog signal and vice-versa are required to achieve a respective task in an speciﬁc application. To carryout such process of conversion digital-to-analog convertor (DAC’s) and analogto-digital converter (ADCs) are required. However, This Project  focuses on designing of potentiometric DAC(Digital to Analog Converter) where digital binary is given as a input and coressponding analog voltage is obtained.In this project Resistor String DAC (RDAC) topology is used which allows to divide the voltage using resistor-string architecture
+
  **Set Up For Simulation**
 Ki cad is open source tool (GPL) integrated package which helps to draw a schematic and obtained pcb layout.For simulation of this project firstly install ki cad for windows,macros etc. according to device.
 Simulation steps of ki cad on windows are as follows.
