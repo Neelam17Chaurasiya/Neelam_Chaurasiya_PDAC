@@ -9,7 +9,7 @@ Simulation steps of ki cad on windows are as follows.
 
 1.Install ki cad from given link  On Windows, and other Linux distributions: https://www.kicad-pcb.org/ and download and install KiCad.
 
-2.select CERN switzerland 
+2.Select CERN Switzerland 
 
 3.Run " kicad.exe, a main window will pop up.
 
