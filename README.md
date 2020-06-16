@@ -50,6 +50,8 @@ Simulation steps of KiCad on windows are as follows.
 
 12.Now for simulating the schematic click on" Tools"-->"Simulator"-->"setting"-->"transient analysis"(enter time step=50ns,final time=200ns and initial time=0)-->"OK"-->" Run/simulate"--> Add signal"(Select input bits V(A0),V(A1) and output voltage v(OUT) , observe the Staircase analog output waveforms.
 
+![](simulation.png)
+
 **STEPS FOR GENERATION OF NETLIST**
 
 
