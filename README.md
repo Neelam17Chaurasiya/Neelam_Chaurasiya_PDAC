@@ -20,11 +20,14 @@ Simulation steps of KiCad on windows are as follows.
 3.Run " kicad.exe, a main window will pop up.
 
 4.Create a new project:“File” -> “New”->  “New Folder” button, and name the new folder.
+
 ![](new_proj.png)
 
 5.. Open the new folder by double clicking on it and Enter the name of the project in “File name”.  Now click on open a kicad window will open.
 
 6.Click on the Schematic editor button a  “EESchema” window opens here draw the schematic by  clicking on the “place a components” button found in the right toolbar and make connection by selecting wire from right toolbar.
+
+![](place_comp.png)
 
 7. Enter the values of the component Right click in the middle of the component and select “Edit Component” -> “Value”.
 
