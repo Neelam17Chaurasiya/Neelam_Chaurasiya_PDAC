@@ -20,6 +20,7 @@ Simulation steps of KiCad on windows are as follows.
 3.Run " kicad.exe, a main window will pop up.
 
 4.Create a new project:“File” -> “New”->  “New Folder” button, and name the new folder.
+![](new_proj.png)
 
 5.. Open the new folder by double clicking on it and Enter the name of the project in “File name”.  Now click on open a kicad window will open.
 
