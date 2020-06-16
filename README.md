@@ -42,6 +42,8 @@ Simulation steps of KiCad on windows are as follows.
 10.The components now need to be given unique identifiers. To do this click on the
 “Annotate schematic” -->“Use the current page only” -->“Annotation"-->"OK"
 
+![](annotate.png)
+
 11.Click on the “Schematic Electric Rules Check” -->"Run",  check the warning and errors. and correct the errors if found.Again save schemetic as mentioned in step no. 9.
 
 12.Now for simulating the schematic click on" Tools"-->"Simulator"-->"setting"-->"transient analysis"(enter time step=50ns,final time=200ns and initial time=0)-->"OK"-->" Run/simulate"--> Add signal"(Select input bits V(A0),V(A1) and output voltage v(OUT) , observe the Staircase analog output waveforms.
