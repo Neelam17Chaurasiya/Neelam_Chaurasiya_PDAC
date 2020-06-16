@@ -14,7 +14,7 @@ Simulation steps of KiCad on windows are as follows.
 1.Install  KiCad from given link  On Windows, and other Linux distributions: https://www.kicad-pcb.org/ and download and install KiCad.
 
 2.Select CERN Switzerland 
-
+<img src="install.png" width="100">
 ![](install.png)
 
 3.Run " kicad.exe, a main window will pop up.
