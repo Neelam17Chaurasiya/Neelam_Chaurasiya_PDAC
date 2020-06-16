@@ -29,9 +29,13 @@ Simulation steps of KiCad on windows are as follows.
 
 ![](place_comp.png)
 
-7. Enter the values of the component Right click in the middle of the component and select “Edit Component” -> “Value”.
+7. Enter the values of the component Right click in the middle of the component and select “Edit Component” -> “Value” OR press "E" from the keyboard.
 
-8. For MOSFETs go to" spice edit model-->select library of 180nm having extension of .lib.
+![](resistor_value.png)
+
+8. For MOSFETs go to" edit spice model-->select library of 180nm having extension of .lib.
+
+![](pmos_value.png)
 
 9. Once schematic is done ,save the schematic project: by clicking on the “File” -> “Save Whole Schematic Project" from left corner of the tool baar.
 
