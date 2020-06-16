@@ -39,6 +39,8 @@ Simulation steps of KiCad on windows are as follows.
 
 9. Once schematic is done ,save the schematic project: by clicking on the “File” -> “Save Whole Schematic Project" from left corner of the tool baar.
 
+![](TWOBIT1.jpg)
+
 10.The components now need to be given unique identifiers. To do this click on the
 “Annotate schematic” -->“Use the current page only” -->“Annotation"-->"OK"
 
