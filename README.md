@@ -52,7 +52,9 @@ Simulation steps of KiCad on windows are as follows.
 
 ![](simulation.png)
 
-The analog output waveform is obtained for Twobit potentiometric DAC as shown below
+13.The analog output waveform is obtained for Twobit potentiometric DAC as shown below.
+
+![](output_waveform.png)
 
 **STEPS FOR GENERATION OF NETLIST**
 
