@@ -57,6 +57,9 @@ Simulation steps of KiCad on windows are as follows.
 
 1.	Click on “Netlist generation” on the top toolbar.
 2.	Select spicemark on default format.Save the file with default file name.
+
+![](netlst.png)
+
 3.	To observe the netlist spice code go to the main window of kicad here you can see at the left corner a new file will be generated with .cir extension.
 4.	Now to open the Netlist spice code go to the folder where you have created your project
 ,there you can observe .cir file ,copy that file and paste it in the same folder ,rename it with .asm or else any editor format to open the file in wordpad or in notepad etc.
