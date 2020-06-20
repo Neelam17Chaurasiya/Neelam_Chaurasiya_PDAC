@@ -69,6 +69,30 @@ Simulation steps of KiCad on windows are as follows.
 ,there you can observe .cir file ,copy that file and paste it in the same folder ,rename it with .asm or else any editor format to open the file in wordpad or in notepad etc.
 For further information regarding kicad you can visit to the user manual of kicad ,link is given below https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all OR https://frgmnt.org/w/wp-content/uploads/2011/05/KiCad_Tutorial-2011.pdf
 
+**What is Ngspice?**
+Ngspice is the open source spice simulator electronic circuits. It is SPICE compatible. You may apply PSPICE or LTSPICE device model parameters and netlists for schematics . ngspice will also read HSPICE device libraries from semiconductor foundry PDKs for simulating integrated circuits and generates simulation plots of corresponding netlist.
+
+
+**STEPS FOR SIMULATION OF SPICE NETLIST**
+
+The  netlist of the PDAC is generated as mention in the above step,the netlist spice code is the input to the ngspice telling it about circuit to be simulated,with some simulation commands ngspice starts  the simulation and plots the output graphs.
+
+*INSTALLATION OF NGSPICE FOR UBUNTU:*
+   
+    Installing ngspice package on Ubuntu 16.04 (Xenial Xerus) is as easy as running the following  command on terminal:
+sudo apt-get update
+sudo apt-get install ngspice
+
+*STEPS*
+
+1.	Download the TWOBIT.cir.out  file from the repositary and set directory to save the file.
+
+2.	Open the ngspice
+
+3.	To simulate type ngspice 1->TWOBIT.cir.out ,hence the simulated analog voltage waveform as shown below where V(a0) & V(a1) are the inputs bits waveform and V(vout) is analog voltage waveform.
+
+![](netlstsimulation_output.png)
+
 **Contact Information**
 
 
