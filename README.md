@@ -87,7 +87,7 @@ sudo apt-get install ngspice
 
 *STEPS*
 
-1.	Download the TWOBIT.cir.out  file from the repositary and set directory to save the file.
+1.	Download the TWOBIT.cir.out  file from the repository and set directory to save the file.
 
 2.	Open the ngspice
 
