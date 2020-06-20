@@ -92,7 +92,7 @@ sudo apt-get install ngspice
 
 3.	To simulate type ngspice 1->TWOBIT.cir.out ,hence the simulated analog voltage waveform as shown below where V(a0) & V(a1) are the inputs bits waveform and V(vout) is analog voltage waveform.
 
-![](netlitsimulation_output.png)
+![](netlistsimulation_output.png)
 
 **Contact Information**
 
