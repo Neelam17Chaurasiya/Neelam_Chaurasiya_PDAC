@@ -70,6 +70,7 @@ Simulation steps of KiCad on windows are as follows.
 For further information regarding kicad you can visit to the user manual of kicad ,link is given below https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all OR https://frgmnt.org/w/wp-content/uploads/2011/05/KiCad_Tutorial-2011.pdf
 
 **What is Ngspice?**
+
 Ngspice is the open source spice simulator electronic circuits. It is SPICE compatible. You may apply PSPICE or LTSPICE device model parameters and netlists for schematics . ngspice will also read HSPICE device libraries from semiconductor foundry PDKs for simulating integrated circuits and generates simulation plots of corresponding netlist.
 
 
