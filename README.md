@@ -81,6 +81,7 @@ The  netlist of the PDAC is generated as mention in the above step,the netlist s
    
     Installing ngspice package on Ubuntu 16.04 (Xenial Xerus) is as easy as running the following  command on terminal:
 sudo apt-get update
+
 sudo apt-get install ngspice
 
 *STEPS*
@@ -91,7 +92,7 @@ sudo apt-get install ngspice
 
 3.	To simulate type ngspice 1->TWOBIT.cir.out ,hence the simulated analog voltage waveform as shown below where V(a0) & V(a1) are the inputs bits waveform and V(vout) is analog voltage waveform.
 
-![](netlstsimulation_output.png)
+![](netlitsimulation_output.png)
 
 **Contact Information**
 
