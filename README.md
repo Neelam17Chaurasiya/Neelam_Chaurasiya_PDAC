@@ -99,6 +99,8 @@ sudo apt-get install ngspice
 
 *The block diagram of 2bit*
 
+![](ltspice2bitsch.png)
+
 for 10bit simulation we have used ltspice
 following graphs represent simulation graph
 
