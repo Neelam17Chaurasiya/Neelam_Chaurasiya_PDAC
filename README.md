@@ -97,6 +97,10 @@ sudo apt-get install ngspice
 
 **TENBIT SIMULATION**
 
+switch block diagram
+
+![](switch.png)
+
 *The block diagram of 2bit*
 
 ![](ltspice2bitsch.png)
