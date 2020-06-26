@@ -95,6 +95,17 @@ sudo apt-get install ngspice
 
 ![](netlistsimulation_output.png)
 
+**TEN SIMULATION**
+
+for 10bit simulation we have used ltspice
+following graphs represent simulation graph
+
+for 1111111111
+
+![](1111111111.png)
+
+
+
 **Contact Information**
 
 
