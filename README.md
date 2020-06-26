@@ -97,6 +97,8 @@ sudo apt-get install ngspice
 
 **TENBIT SIMULATION**
 
+*The block diagram of 2bit*
+
 for 10bit simulation we have used ltspice
 following graphs represent simulation graph
 
