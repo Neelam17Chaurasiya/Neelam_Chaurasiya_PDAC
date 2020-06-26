@@ -101,6 +101,10 @@ sudo apt-get install ngspice
 
 ![](ltspice2bitsch.png)
 
+for 10bit
+
+![](10bit.png)
+
 for 10bit simulation we have used ltspice
 following graphs represent simulation graph
 
