@@ -75,9 +75,15 @@ Most of the real-world applications deal with analog and digital signal, therefo
 
 (xiii)	Click on “run” for proceeding for the simulation(refer below image).
 
+![](Schematics/simulationlt.png)
+
+
 (xiv)	To get the output voltage click on “plot setting-->add trace to plot-->v(vout10)[selecting output reference node]-->OK”.
 
 In the below figure analog output voltage is obtained for the binary “1111111111”.
+
+![](Schematics/plot.png)
+
 
 **SIMULATIONS GRAPHS**
 
