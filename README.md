@@ -97,6 +97,8 @@ In the below figure analog output voltage is obtained for the binary “11111111
 
 •	Vout/vref vs digital codes for decimal value 512-543
 
+![](10bitfinal/512-543vout.png)
+
 •	Vout/vref vs digital codes for decimal value 960-991
 
 **Diffrential non–linearity(DNL) Graphs**
