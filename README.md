@@ -131,7 +131,7 @@ In the below figure analog output voltage is obtained for the binary “11111111
 
 •	INL vs digital codes for decimal value 960-991
 
-![](10bitfinal/(960-991)inl.png)
+![](10bitfinal/(960-991).png)
 
 
  
