@@ -112,14 +112,26 @@ In the below figure analog output voltage is obtained for the binary “11111111
 
 •	DNL vs digital codes for decimal value 512-543
 
+![](10bitfinal/(512-543)dnlwithlsb.png)
+
 •	DNL vs digital codes for decimal value 960-991
 
+![](10bitfinal/(960-991)DNLwithlsb.png)
+
 **Integral non-linearity(INL) Graphs**
+
+
 •	INL vs digital codes for decimal value 32-63
+
+![](10bitfinal/(32-63)inl.png)
 
 •	INL vs digital codes for decimal value 512-543
 
+![](10bitfinal/(512-543)inl.png)
+
 •	INL vs digital codes for decimal value 960-991
+
+![](10bitfinal/(960-991)inl.png)
 
 
  
