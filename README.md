@@ -84,6 +84,10 @@ In the below figure analog output voltage is obtained for the binary “11111111
 
 ![](Schematics/plot.png)
 
+(xv) For generating NETLIST SPICE CODE click on " view-->SPICE Netlist" ,copy the netlist spice code and paste it into notepad ,save it by .cir extension
+
+![](Schematics/netlistg.png)
+
 
 **SIMULATIONS GRAPHS**
 
