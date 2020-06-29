@@ -25,26 +25,53 @@ Most of the real-world applications deal with analog and digital signal, therefo
 
 (ii)	 Before making schematic add osu180nm library file in your directry path,to print on to the schematic click on ‘.op’ as clearly mentioned in below image,make a use of different components for designing and save it.
 
+![](Schematics/makingsch.png)
+
 (iii)	Below figure represents schematic of switch and its symbol
+
+![](Schematics/switchsy.png)
 
 (iv)	Below figure represents schematic of 2bit and its symbol,here symbols of switch is used for implementation of 2bit.
 
+![](Schematics/twobitsy.png)
+
 (v)	Below figure represents schematic of 3bit and its symbol,here symbols of 2bit is used for implementation of 3bit.
+
+![](Schematics/threebit.png)
 
 (vi)	Below figure represents schematic of 4bit and its symbol,here symbols of 3bit is used for implementation of 4bit.
 
+![](Schematics/fourbit.png)
+
 (vii)	Below figure represents schematic of 5bit and its symbol,here symbols of 4bit is used for implementation of 5bit.
+
+![](Schematics/fivebit.png)
 
 (viii)	Below figure represents schematic of 6bit and its symbol,here symbols of 5bit is used for implementation of 6bit.
 
+![](Schematics/sixbit.png)
+
+
 (ix)	Below figure represents schematic of 7bit and its symbol,here symbols of 6bit is used for implementation of 7bit.
 
+![](Schematics/sevenbit.png)
+
+
 (x)	Below figure represents schematic of 8bit and its symbol,here symbols of 7bit is used for implementation of 8bit.
+
+![](Schematics/eighttbit.png)
+
 
 
 (xi)	Below figure represents schematic of 9bit and its symbol,here symbols of 8bit is used for implementation of 9bit.
 
+![](Schematics/ninebit.png)
+
+
 (xii)	Below figure represents schematic of 10bit and its symbol,here symbols of 9bit is used for implementation of 10bit.Here finally we are done with 10bit potentiometric DAC.
+
+![](Schematics/tenbitsch.png)
+
 
 (xiii)	Click on “run” for proceeding for the simulation(refer below image).
 
