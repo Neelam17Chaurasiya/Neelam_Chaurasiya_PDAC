@@ -88,7 +88,12 @@ In the below figure analog output voltage is obtained for the binary “11111111
 **SIMULATIONS GRAPHS**
 
 **Vout/vref graphs**
+
+
 •	Vout/vref vs digital codes for decimal value 32-63
+
+![](10bitfinal/32-63.png)
+
 
 •	Vout/vref vs digital codes for decimal value 512-543
 
