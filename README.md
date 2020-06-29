@@ -19,7 +19,9 @@ Most of the real-world applications deal with analog and digital signal, therefo
 
 *3.	The designing steps are explained below:*
 
-(i)	Click on New Schematic for making schematic and for symbol click on to the ‘New symbol’.Before 
+(i)	Click on 'New Schematic' for making schematic and for symbol click on to the ‘New symbol’.
+
+![](Schematics/ltspicesch.png)
 
 (ii)	 Before making schematic add osu180nm library file in your directry path,to print on to the schematic click on ‘.op’ as clearly mentioned in below image,make a use of different components for designing and save it.
 
