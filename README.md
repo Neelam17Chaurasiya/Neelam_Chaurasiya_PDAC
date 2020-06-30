@@ -100,7 +100,7 @@ Ngspice is the open source spice simulator electronic circuits. It is SPICE comp
 
 Step 1: open the browser and type the following 
 
-      “sudo apt-get install -y ngspice”
+      sudo apt-get install -y ngspice
       
 Step 2:Download the “10bitlt.cir.out “ file from the repository in the appropriate path .Now add a command  “ngspice”
 
