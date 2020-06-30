@@ -1,0 +1,129 @@
+* C:\Users\Admin\Documents\LTspiceXVII\Draft3.asc
+XX1 a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 P001 0 vout10 tenbit
+V1 a0 0 1.8
+V2 a1 0 1.8
+V3 a2 0 1.8
+V4 a3 0 1.8
+V5 a4 0 1.8
+V6 a5 0 1.8
+V7 a6 0 1.8
+V8 a7 0 1.8
+V9 a8 0 1.8
+V10 a9 0 1.8
+V11 vref 0 3.3
+R1 vref P001 5k
+
+* block symbol definitions
+.subckt tenbit a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 up_10 dw_10 vout10
+XX1 a0 a1 a2 a3 a4 a5 a6 a7 a8 up_10 N002 N001 ninebit
+XX2 a0 a1 a2 a3 a4 a5 a6 a7 a8 N003 dw_10 N004 ninebit
+XX3 a9 N001 N004 vout10 switch
+R1 N002 N003 5k
+.ends tenbit
+
+.subckt ninebit a0 a1 a2 a3 a4 a5 a6 a7 a8 up_9 dw_9 vout9
+XX1 a0 a1 a2 a3 a4 a5 a6 a7 up_9 N002 N001 eightbit
+XX2 a0 a1 a2 a3 a4 a5 a6 a7 N003 dw_9 N004 eightbit
+XX3 a8 N001 N004 vout9 switch
+R1 N002 N003 5k
+.ends ninebit
+
+.subckt switch dig_in in_1 in_2 vout
+M1 vout N002 in_1 in_1 CMOSP L=180n W=900n
+M3 N002 dig_in N001 N001 CMOSP L=180n W=900n
+V1 N001 0 3.3
+M2 vout N002 in_2 in_2 CMOSN L=180n W=360n
+M6 N002 dig_in 0 0 CMOSN L=180n W=360n
+M7 in_1 dig_in vout vout CMOSN L=180n W=360n
+M4 in_2 dig_in vout vout CMOSP L=180n W=900n
+.model CMOSN NMOS (LEVEL=8 VERSION=3.2 TNOM=27 TOX=4.1E-9 XJ=1E-7 NCH=2.3549E17 VTH0=0.3823463 K1=0.5810697
++            K2=4.774618E-3 K3=0.0431669 K3B=1.1498346 W0=1E-7 NLX=1.910552E-7 DVT0W=0 DVT1W=0 DVT2W=0
++            DVT0=1.2894824 DVT1=0.3622063 DVT2=0.0713729 U0=280.633249 UA=-1.208537E-9 UB=2.158625E-18
++            UC=5.342807E-11 VSAT=9.366802E4 A0=1.7593146 AGS=0.3939741 B0=-6.413949E-9 B1=-1E-7 KETA=-5.180424E-4
++            A1=0 A2=1 RDSW=105.5517558 PRWG=0.5 PRWB=-0.1998871 WR=1 WINT=7.904732E-10 LINT=1.571424E-8 XL=0
++            XW=-1E-8 DWG=1.297221E-9 DWB=1.479041E-9 VOFF=-0.0955434 NFACTOR=2.4358891 CIT=0 CDSC=2.4E-4 CDSCD=0
++            CDSCB=0 ETA0=3.104851E-3 ETAB=-2.512384E-5 DSUB=0.0167075 PCLM=0.8073191 PDIBLC1=0.1666161 PDIBLC2=3.112892E-3
++            PDIBLCB=-0.1 DROUT=0.7875618 PSCBE1=8E10 PSCBE2=9.213635E-10 PVAG=3.85243E-3 DELTA=0.01 RSH=6.7 MOBMOD=1
++            PRT=0 UTE=-1.5 KT1=-0.11 KT1L=0 KT2=0.022 UA1=4.31E-9 UB1=-7.61E-18 UC1=-5.6E-11 AT=3.3E4 WL=0 WLN=1
++            WW=0 WWN=1 WWL=0 LL=0 LLN=1 LW=0 LWN=1 LWL=0 CAPMOD=2 XPART=0.5 CGDO=7.08E-10 CGSO=7.08E-10 CGBO=1E-12
++            CJ=9.68858E-4 PB=0.8 MJ=0.3864502 CJSW=2.512138E-10 PBSW=0.809286 MJSW=0.1060414 CJSWG=3.3E-10 PBSWG=0.809286
++            MJSWG=0.1060414 CF=0 PVTH0=-1.192722E-3 PRDSW=-5 PK2=6.450505E-5 WKETA=-4.27294E-4 LKETA=-0.0104078
++            PU0=6.3268729 PUA=2.226552E-11 PUB=0 PVSAT=969.1480157 PETA0=1E-4 PKETA=-1.049509E-3)
+.model CMOSP PMOS (LEVEL=8 VERSION=3.2 TNOM=27 TOX=4.1E-9 XJ=1E-7 NCH=4.1589E17 VTH0=-0.3938813 K1=0.5479015
++            K2=0.0360586 K3=0.0993095 K3B=5.7086622 W0=1E-6 NLX=1.313191E-7 DVT0W=0 DVT1W=0 DVT2W=0 DVT0=0.4911363
++            DVT1=0.2227356 DVT2=0.1 U0=115.6852975 UA=1.505832E-9 UB=1E-21 UC=-1E-10 VSAT=1.329694E5 A0=1.7590478
++            AGS=0.3641621 B0=3.427126E-7 B1=1.062928E-6 KETA=0.0134667 A1=0.6859506 A2=0.3506788 RDSW=168.5705677
++            PRWG=0.5 PRWB=-0.4987371 WR=1 WINT=0 LINT=3.028832E-8 XL=0 XW=-1E-8 DWG=-2.349633E-8 DWB=-7.152486E-9
++            VOFF=-0.0994037 NFACTOR=1.9424315 CIT=0 CDSC=2.4E-4 CDSCD=0 CDSCB=0 ETA0=0.0608072 ETAB=-0.0426148
++            DSUB=0.7343015 PCLM=3.2579974 PDIBLC1=7.229527E-6 PDIBLC2=0.025389 PDIBLCB=-1E-3 DROUT=0 PSCBE1=1.454878E10
++            PSCBE2=4.202027E-9 PVAG=15 DELTA=0.01 RSH=7.8 MOBMOD=1 PRT=0 UTE=-1.5 KT1=-0.11 KT1L=0 KT2=0.022 UA1=4.31E-9
++            UB1=-7.61E-18 UC1=-5.6E-11 AT=3.3E4 WL=0 WLN=1 WW=0 WWN=1 WWL=0 LL=0 LLN=1 LW=0 LWN=1 LWL=0 CAPMOD=2 XPART=0.5
++            CGDO=6.32E-10 CGSO=6.32E-10 CGBO=1E-12 CJ=1.172138E-3 PB=0.8421173 MJ=0.4109788 CJSW=2.242609E-10 PBSW=0.8            +            MJSW=0.3752089 CJSWG=4.22E-10 PBSWG=0.8 MJSWG=0.3752089 CF=0 PVTH0=1.888482E-3 PRDSW=11.5315407 PK2=1.559399E-3
++            WKETA=0.0319301 LKETA=2.955547E-3 PU0=-1.1105313 PUA=-4.62102E-11 PUB=1E-21 PVSAT=50 PETA0=1E-4 PKETA=-4.346368E-3)
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+.ends switch
+
+.subckt eightbit a0 a1 a2 a3 a4 a5 a6 a7 up_8 dw_8 vout8
+XX1 a0 a1 a2 a3 a4 a5 a6 up_8 N001 N003 sevenbit
+XX2 a0 a1 a2 a3 a4 a5 a6 N002 dw_8 N004 sevenbit
+XX3 a7 N003 N004 vout8 switch
+R1 N001 N002 5k
+.ends eightbit
+
+.subckt sevenbit a0 a1 a2 a3 a4 a5 a6 up_7 dw_7 vout7
+XX1 a0 a1 a2 a3 a4 a5 up_7 N001 N003 sixbit
+XX2 a0 a1 a2 a3 a4 a5 N002 dw_7 N004 sixbit
+XX3 a6 N003 N004 vout7 switch
+R1 N001 N002 5k
+.ends sevenbit
+
+.subckt sixbit a0 a1 a2 a3 a4 a5 up_6 dw_6 vout6
+XX1 up_6 N002 a0 a1 a2 a3 a4 N001 fivebit
+XX2 N003 dw_6 a0 a1 a2 a3 a4 N004 fivebit
+XX3 a5 N001 N004 vout6 switch
+R1 N002 N003 5k
+.ends sixbit
+
+.subckt fivebit up_5 dw_5 a0 a1 a2 a3 a4 vout5
+XX1 a0 a1 a2 a3 up_5 N002 N001 fourbit
+XX2 a0 a1 a2 a3 N003 dw_5 N004 fourbit
+XX3 a4 N001 N004 vout5 switch
+R1 N002 N003 5k
+.ends fivebit
+
+.subckt fourbit a0 a1 a2 a3 up_4 dw_4 vout4
+XX1 a0 a1 a2 up_4 N001 N002 threebit
+XX2 a0 a1 a2 N003 dw_4 N004 threebit
+XX3 a3 N002 N004 vout4 switch
+R1 N001 N003 5k
+.ends fourbit
+
+.subckt threebit a0 a1 a2 up_3 dw_3 vout3
+XX1 a0 a1 up_3 N001 N003 twobit
+XX2 a0 a1 N002 dw_3 N004 twobit
+XX3 a2 N003 N004 vout3 switch
+R1 N001 N002 5k
+.ends threebit
+
+.subckt twobit a0 a1 up_2 dw_2 vout_2
+XX1 a0 up_2 N002 N001 switch
+XX2 a0 N003 N005 N004 switch
+XX3 a1 N001 N004 vout_2 switch
+R2 up_2 N002 10k
+R3 N002 N003 10k
+R4 N003 N005 10k
+R1 N005 dw_2 5k
+.ends twobit
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Admin\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran  1s  2s
+*.backanno
+*Control Statements
+.control
+run
+plot v(out10)
+.endc
+.end
