@@ -88,6 +88,26 @@ In the below figure analog output voltage is obtained for the binary “11111111
 
 ![](Schematics/netlistg.png)
 
+**STEPS FOR SIMULATION OF SPICE NETLIST**
+
+The  netlist of the PDAC is generated as mention in the above step,the netlist spice code is the input to the ngspice telling it about circuit to be simulated,with some simulation commands ngspice starts  the simulation and plots the output graphs.
+
+*What is Ngspice?*
+
+Ngspice is the open source spice simulator electronic circuits. It is SPICE compatible. You may apply PSPICE or LTSPICE device model parameters and netlists for schematics . ngspice will also read HSPICE device libraries from semiconductor foundry PDKs for simulating integrated circuits and generates simulation plots of corresponding netlist.
+
+#### INSTALLATION OF NGSPICE FOR UBUNTU: ####
+
+Step 1: open the browser and type the following 
+
+      “sudo apt-get install -y ngspice”
+      
+Step 2:Download the “10bitlt.cir.out “ file from the repository in the appropriate path .Now add a command  “ngspice”
+
+
+Step 3: for simulating the netlist type add the file in the path and type “ngspice 1-> source<10bitlt.cir.out>” enter. The simulation graph will be obtained for binary value “1111111111” ,you can change the  binary values in the netlist and run the spice you will analog output voltage for corresponding binary values.
+
+
 
 **SIMULATIONS GRAPHS**
 
