@@ -105,7 +105,7 @@ Step 1: open the browser and type the following
 Step 2:Download the “10bitlt.cir.out “ file from the repository in the appropriate path .Now add a command  “ngspice”
 
 
-Step 3: for simulating the netlist type add the file in the path and type “ngspice 1-> source<10bitlt.cir.out>” enter. The simulation graph will be obtained for binary value “1111111111” ,you can change the  binary values in the netlist and run the spice you will analog output voltage for corresponding binary values.
+Step 3: for simulating the netlist type add the file in the path and type “ngspice 1-> source<10bitlt.cir.out>” enter. The simulation graph will be obtained for binary value “1111111111” ,you can change the  binary values in the netlist and run the spice you will get analog output voltage for corresponding binary values.
 
 
 
