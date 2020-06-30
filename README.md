@@ -148,6 +148,8 @@ In the below figure analog output voltage is obtained for the binary “11111111
 
 Neelam B. Chaurasiya,BE-Degree, VESIT Mumbai, chaurasiyaneelam001@gmail.com
 
+Bellana Avinash Naidu B.tech, Electronics and Instrumentation, NIT Rourkela avinashbellana@gmail.com
+
 KUNAL GHOSH, Director, VSD Corp. Pvt. Ltd. kunalpghosh@gmail.com
 
 PHILIPP GÜHRING, Software Architect at LibreSilicon Association pg@futureware.at
